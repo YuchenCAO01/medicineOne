@@ -15,6 +15,7 @@ target/
 
 # Package Files #
 *.jar
+!/medicine-one-backend/.mvn/wrapper/maven-wrapper.jar
 *.war
 *.nar
 *.ear
