@@ -1,0 +1,45 @@
+# database, mail, server config.
+spring:
+  thymeleaf:
+    prefix: /static
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://182.92.169.27:3306/medione_db
+    username: medione_db_owner
+    password: Medi1@Password
+
+  mail:
+    host: smtp.gmail.com
+    username: MedicineOne10@gmail.com
+    password: xqxsaifdtwgtfgsg
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          port: 465
+          starttls:
+            enable: true
+            required: true
+          ssl:
+            enable: true
+        display:
+          sendmail: Medicine One
+          sendname: Medicine One
+    default-encoding: utf-8
+
+#    properties.mail.smtp.auth: true
+#    properties.mail.smtp.port: 465
+#    properties.mail.display.sendmail: Medicine One
+#    properties.mail.display.sendname: Medicine One
+#    properties.mail.smtp.starttls.enable: true
+#    properties.mail.smtp.starttls.required: true
+#    properties.mail.smtp.ssl.enable: true
+
+server:
+  port: ${PORT:8081}
+#      timeout: 28800  #8hr = 8*60*60s
+
+
+
