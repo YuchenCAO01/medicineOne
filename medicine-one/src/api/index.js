@@ -8,6 +8,7 @@ const api = {
     var userinfo = {
       'username':username,  
       'password':pwd,
+      
     };
     return axios.post(path.baseUrl + path.login, userinfo)
   },
