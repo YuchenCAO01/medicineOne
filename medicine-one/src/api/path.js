@@ -1,6 +1,6 @@
 // Encapsulation of back end API request path
 const base = {
-  baseUrl       : 'http://182.92.169.27/medione-api:',
+  baseUrl       : 'http://182.92.169.27/medione-api',
   // baseUrl       : "https://medione.herokuapp.com",
   //baseUrl       : "https://medione-dev.herokuapp.com",
   login         : '/user/login',
