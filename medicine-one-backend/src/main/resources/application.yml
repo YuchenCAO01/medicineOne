@@ -1,7 +1,5 @@
 # database, mail, server config.
 spring:
-  thymeleaf:
-    prefix: /static
   datasource:
     druid:
       driver-class-name: com.mysql.cj.jdbc.Driver

@@ -11,7 +11,7 @@ import javax.servlet.http.HttpSession;
  * @Description simple java class for user
  **/
 @Data
-@TableName("user")
+@TableName("User")
 public class User {
     @TableField(value = "`password`")
     private String password;

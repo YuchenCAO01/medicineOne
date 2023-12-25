@@ -16,7 +16,7 @@ import java.sql.Date;
  * @Description simple java class for medicine
  **/
 @Data
-@TableName("medicine")
+@TableName("Medicine")
 public class Medicine {
     @TableId(value = "id", type = IdType.AUTO)
     private Integer id;

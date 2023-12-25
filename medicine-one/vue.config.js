@@ -23,6 +23,7 @@ module.exports = defineConfig({
       
   //   },
   // },
+  publicPath: process.env.NODE_ENV === 'production' ? '/medione-app/' : '/',
   transpileDependencies: true,
   configureWebpack: {
     plugins: [

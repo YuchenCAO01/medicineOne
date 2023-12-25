@@ -1,0 +1,39 @@
+steps:
+
+  - label: "Preparing the Server"
+    command:
+      - "cd deploy"
+      - "chmod +x Prepare.sh"
+      - "./Prepare.sh"
+    agents:
+      queue: AliCloudServer
+
+  - wait
+
+  - label : "Build Front-end"
+    command:
+      - "cd deploy"
+      - "chmod +x BuildFrontEnd.sh"
+      - "./BuildFrontEnd.sh"
+    agents:
+      queue: AliCloudServer
+
+
+  - label: "Build Back-end"
+    command:
+      - "cd deploy"
+      - "chmod +x BuildBackEnd.sh"
+      - "./BuildBackEnd.sh"
+    agents:
+      queue:  AliCloudServer
+
+  - wait
+
+  
+  - label: "Start the Dockers, Run Application"
+    command:
+      - "cd deploy"
+      - "chmod +x StartApp.sh"
+      - "./StartApp.sh"
+    agents:
+      queue: AliCloudServer

@@ -1,5 +1,6 @@
 package Medione.dao;
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import Medione.pojo.User;
 import org.apache.ibatis.annotations.Mapper;

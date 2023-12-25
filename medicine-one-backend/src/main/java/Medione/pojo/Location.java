@@ -9,7 +9,7 @@ import lombok.Data;
  * @Description simple java class for location
  **/
 @Data
-@TableName("location")
+@TableName("Location")
 public class Location {
     @TableId(value = "idLocation", type = IdType.AUTO)
     private Integer locationid;
