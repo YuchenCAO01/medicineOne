@@ -36,7 +36,13 @@ public class WebConfig implements WebMvcConfigurer {
                                     "https://182.92.169.27:80/",
                                     "https://182.92.169.27/medione-app/",
                                     "http://182.92.169.27:80/",
-                                    "http://182.92.169.27/medione-app/")     //developing website
+                                    "http://182.92.169.27/medione-app/",
+                                    "http://182.92.169.27",
+                                    "https://182.92.169.27",
+                                    "http://localhost",
+                                    "https://localhost",
+                                    "http://localhost:8001/",
+                                    "https://localhost:8001/")     //developing website
 //                    .allowedOrigins("*")     //release website
                     .allowCredentials(true)
                     .allowedMethods("*")
