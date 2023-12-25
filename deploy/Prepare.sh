@@ -25,7 +25,7 @@ create_swap() {
 # Check Docker, Nginx, and MySQL services
 check_service docker
 check_service nginx
-check_service mysql
+check_service mysqld
 
 # Check for swap space
 swapsize=$(swapon --show=SIZE --noheadings --bytes | awk '{ print int($1/1024/1024) }')
