@@ -32,7 +32,11 @@ public class WebConfig implements WebMvcConfigurer {
             // allow path
             registry.addMapping("/**")
 //                    .allowedOrigins("http://localhost:8080/")   //local server
-                    .allowedOrigins("http://localhost:80/", "https://182.92.169.27:80/", "https://182.92.169.27/medione-app/")     //developing website
+                    .allowedOrigins("http://localhost:80/",
+                                    "https://182.92.169.27:80/",
+                                    "https://182.92.169.27/medione-app/",
+                                    "http://182.92.169.27:80/",
+                                    "http://182.92.169.27/medione-app/")     //developing website
 //                    .allowedOrigins("*")     //release website
                     .allowCredentials(true)
                     .allowedMethods("*")
