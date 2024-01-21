@@ -1,0 +1,298 @@
+{
+    "user_stories": [
+        {
+            "id": 1,
+            "content": "As a nan, I want to nan so that nan",
+            "needed": 61,
+            "weight": 9
+        },
+        {
+            "id": 2,
+            "content": "As a a user, I want to register an account  so that I can get an account, log in, and use all the functionalities on this website.",
+            "needed": 2,
+            "weight": 9
+        },
+        {
+            "id": 3,
+            "content": "As a a user, I want to use email for verification so that I can have my account registered, and if there is anything wrong with my account, I can fix the problem using my email.",
+            "needed": 42,
+            "weight": 68
+        },
+        {
+            "id": 4,
+            "content": "As a a user , I want to have a unique username so that I will not need to type in the email address when logging in because it is too long and not user-friendly.",
+            "needed": 63,
+            "weight": 53
+        },
+        {
+            "id": 5,
+            "content": "As a a user, I want to use a nickname so that I don't want to use my real name because I want to protect my privacy.",
+            "needed": 64,
+            "weight": 14
+        },
+        {
+            "id": 6,
+            "content": "As a a user, I want to not fill in my accurate information so that I will not reveal personal information",
+            "needed": 62,
+            "weight": 66
+        },
+        {
+            "id": 7,
+            "content": "As a a user, I want to have a password so that other people can't get my account content information.",
+            "needed": 74,
+            "weight": 97
+        },
+        {
+            "id": 8,
+            "content": "As a a user , I want to have my password confirmation (like repeat password when registering) so that I will not mistype my password and have to reset it",
+            "needed": 4,
+            "weight": 97
+        },
+        {
+            "id": 9,
+            "content": "As a a user, I want to sign in with an existing account email and password so that I can log in with the email.",
+            "needed": 60,
+            "weight": 10
+        },
+        {
+            "id": 10,
+            "content": "As a a user, I want to sign in with an existing account username and password so that I can log in with the username.",
+            "needed": 96,
+            "weight": 36
+        },
+        {
+            "id": 11,
+            "content": "As a a user, I want to sign out  so that I can switch to another account / protect my privacy.",
+            "needed": 47,
+            "weight": 75
+        },
+        {
+            "id": 12,
+            "content": "As a a user, I want to be able to sign out at any page after logging in so that I can 'log out' easily because this function is frequently used.",
+            "needed": 8,
+            "weight": 25
+        },
+        {
+            "id": 13,
+            "content": "As a a user, I want to reset my password, authorised by my email. so that I can modify my password / find my password back in case I forgot.",
+            "needed": 99,
+            "weight": 66
+        },
+        {
+            "id": 14,
+            "content": "As a a user, I want to have password confirmation when resetting the password so that I will not mistype my new password",
+            "needed": 1,
+            "weight": 100
+        },
+        {
+            "id": 15,
+            "content": "As a a user , I want to delete my account so that I can protect my medicine purchase history and will not be able to access it by others.",
+            "needed": 80,
+            "weight": 0
+        },
+        {
+            "id": 16,
+            "content": "As a a user's family member, I want to log in to the same account on different devices concurrently so that my family members could share information about the medicines.",
+            "needed": 32,
+            "weight": 89
+        },
+        {
+            "id": 17,
+            "content": "As a a user , I want to be able to add multiple locations in my account so that I can manage medicines in different locations",
+            "needed": 57,
+            "weight": 87
+        },
+        {
+            "id": 18,
+            "content": "As a a user , I want to be able to see the list of my locations so that I can manage the information about my added locations",
+            "needed": 8,
+            "weight": 35
+        },
+        {
+            "id": 19,
+            "content": "As a a user , I want to be able to visit the 'My Locations' page at any page after logging in so that I can visit 'My Locations' easily because this page is frequently visited.",
+            "needed": 40,
+            "weight": 54
+        },
+        {
+            "id": 20,
+            "content": "As a a user, I want to be able to delete location in my location list so that I can delete useless locations and save space.",
+            "needed": 23,
+            "weight": 20
+        },
+        {
+            "id": 21,
+            "content": "As a a user, I want to be able to modify location detail in my location list so that I can change location details",
+            "needed": 59,
+            "weight": 1
+        },
+        {
+            "id": 22,
+            "content": "As a a user, I want to access detailed information about my medicine clearly so that I can obtain detailed information about the medicine by clicking on the drug on the dashboard.",
+            "needed": 26,
+            "weight": 79
+        },
+        {
+            "id": 23,
+            "content": "As a a user , I want to add new medicine into existing locations so that I could check later to avoid redundant purchasing.",
+            "needed": 86,
+            "weight": 58
+        },
+        {
+            "id": 24,
+            "content": "As a a user, I want to be able to see the medicines in the location I selected  so that I can learn all the medications I have in a chosen location",
+            "needed": 34,
+            "weight": 23
+        },
+        {
+            "id": 25,
+            "content": "As a a user , I want to be able to add medicines at any page after logging in so that I can visiadd medicines' easily because this function is frequently used.",
+            "needed": 94,
+            "weight": 89
+        },
+        {
+            "id": 26,
+            "content": "As a a user, I want to upload the photo of the medicine so that I can see what the medicine looks like",
+            "needed": 36,
+            "weight": 14
+        },
+        {
+            "id": 27,
+            "content": "As a a user , I want to delete the photo I have uploaded of the medicine so that I can change the images/delete the photos",
+            "needed": 88,
+            "weight": 89
+        },
+        {
+            "id": 28,
+            "content": "As a a user, I want to delete medicine so that I can ensure the medicine that is finished or thrown out will not appear in my medicine list on the app.",
+            "needed": 56,
+            "weight": 94
+        },
+        {
+            "id": 29,
+            "content": "As a a user, I want to be able to see 'frequently used' medicine  so that I can quickly find the medicines I've been using recently.",
+            "needed": 24,
+            "weight": 28
+        },
+        {
+            "id": 30,
+            "content": "As a a user , I want to browse a list of all my medicines on the dashboard so that I can quickly scan all my medicines",
+            "needed": 45,
+            "weight": 19
+        },
+        {
+            "id": 31,
+            "content": "As a a user , I want to see an overview of all medicines in the list on the dashboard so that I can quickly learn general information about my medicines",
+            "needed": 87,
+            "weight": 28
+        },
+        {
+            "id": 32,
+            "content": "As a a user , I want to see photos of the medicines in the list on the dashboard so that I can identify medicines quickly",
+            "needed": 70,
+            "weight": 35
+        },
+        {
+            "id": 33,
+            "content": "As a a user, I want to see the medicine is marked in red when the medicine quantity is less than or equal to 2 times of dosage so that I can be reminded when the medication runs out",
+            "needed": 69,
+            "weight": 36
+        },
+        {
+            "id": 34,
+            "content": "As a a user , I want to see the medicine is marked in red when this medicine expires in 15 days so that I can be reminded when the medication is about to expire",
+            "needed": 45,
+            "weight": 39
+        },
+        {
+            "id": 35,
+            "content": "As a a user, I want to take notes about my medicine so that I can record some additional information about this medicine",
+            "needed": 45,
+            "weight": 6
+        },
+        {
+            "id": 36,
+            "content": "As a a user, I want to modify notes about my medicine (Not any information from FDA) so that I can modify the additional information about the medicine",
+            "needed": 56,
+            "weight": 59
+        },
+        {
+            "id": 37,
+            "content": "As a a user, I want to reduce the remaining amount (quantity) of the medicine by taking medicine so that I can update my medicine inventory",
+            "needed": 16,
+            "weight": 31
+        },
+        {
+            "id": 38,
+            "content": "As a a user, I want to search for a medicine (blurry search) so that I could search for the drug I'm looking for, even though I only remember a few letters of the drug., even I only remember few letters of the drug.",
+            "needed": 2,
+            "weight": 28
+        },
+        {
+            "id": 39,
+            "content": "As a a user, I want to the search bar can auto-fill the information about the medicines so that I don't need to type too much",
+            "needed": 61,
+            "weight": 4
+        },
+        {
+            "id": 40,
+            "content": "As a a user, I want to use 'filter' when searching so that I could search more conveniently and find the medicines whose names were entirely forgotten.",
+            "needed": 18,
+            "weight": 73
+        },
+        {
+            "id": 41,
+            "content": "As a a user/ a visitor, I want to click 'About this Website' on the sidebar so that I can know the background of this website.",
+            "needed": 8,
+            "weight": 81
+        },
+        {
+            "id": 42,
+            "content": "As a a developer/ a manager/ a pharmacist, I want to be able to modify wrong information about drugs so that I can make this website reliable.",
+            "needed": 36,
+            "weight": 37
+        },
+        {
+            "id": 43,
+            "content": "As a client, I want to be able to delete some account so that I can free the places occupied by inactive accounts.",
+            "needed": 35,
+            "weight": 84
+        },
+        {
+            "id": 44,
+            "content": "As a a user, I want to operate all the functions simple and convenient  so that I don't have trouble using the software.",
+            "needed": 19,
+            "weight": 49
+        },
+        {
+            "id": 45,
+            "content": "As a a user , I want to see the project to be most in purple and blue so that I will be happy to use it as a medicine-related website.",
+            "needed": 0,
+            "weight": 85
+        },
+        {
+            "id": 46,
+            "content": "As a the product owner, I want to put email verification codes in a cache and cannot send the code again within the 60s so that I can reduce pressure on the server and database",
+            "needed": 64,
+            "weight": 94
+        },
+        {
+            "id": 47,
+            "content": "As a a user , I want to visit frequently used pages by sidebar so that I can easily and quickly access the page I need",
+            "needed": 99,
+            "weight": 56
+        },
+        {
+            "id": 48,
+            "content": "As a a user , I want to see a 'loading' notice when the website is loading something so that I can have a better user experience",
+            "needed": 84,
+            "weight": 83
+        },
+        {
+            "id": 49,
+            "content": "As a a user, I want to see a '404 Not Found' page if there is something wrong with the website so that I can know what is happening if there is problem",
+            "needed": 54,
+            "weight": 42
+        }
+    ]
+}

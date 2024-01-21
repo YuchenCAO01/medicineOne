@@ -1,0 +1,50 @@
+﻿As,I want to,So that
+,,
+a user,register an account ,"I can get an account, log in, and use all the functionalities on this website."
+a user,use email for verification,"I can have my account registered, and if there is anything wrong with my account, I can fix the problem using my email."
+a user ,have a unique username,I will not need to type in the email address when logging in because it is too long and not user-friendly.
+a user,use a nickname,I don’t want to use my real name because I want to protect my privacy.
+a user,not fill in my accurate information,I will not reveal personal information
+a user,have a password,other people can’t get my account content information.
+a user ,have my password confirmation (like repeat password when registering),I will not mistype my password and have to reset it
+a user,sign in with an existing account email and password,I can log in with the email.
+a user,sign in with an existing account username and password,I can log in with the username.
+a user,sign out ,I can switch to another account / protect my privacy.
+a user,be able to sign out at any page after logging in,I can ‘log out’ easily because this function is frequently used.
+a user,"reset my password, authorised by my email.",I can modify my password / find my password back in case I forgot.
+a user,have password confirmation when resetting the password,I will not mistype my new password
+a user ,delete my account,I can protect my medicine purchase history and will not be able to access it by others.
+a user’s family member,log in to the same account on different devices concurrently,my family members could share information about the medicines.
+a user ,be able to add multiple locations in my account,I can manage medicines in different locations
+a user ,be able to see the list of my locations,I can manage the information about my added locations
+a user ,be able to visit the ‘My Locations’ page at any page after logging in,I can visit ‘My Locations’ easily because this page is frequently visited.
+a user,be able to delete location in my location list,I can delete useless locations and save space.
+a user,be able to modify location detail in my location list,I can change location details
+a user,access detailed information about my medicine clearly,I can obtain detailed information about the medicine by clicking on the drug on the dashboard.
+a user ,add new medicine into existing locations,I could check later to avoid redundant purchasing.
+a user,be able to see the medicines in the location I selected ,I can learn all the medications I have in a chosen location
+a user ,be able to add medicines at any page after logging in,I can visit ‘add medicines’ easily because this function is frequently used.
+a user,upload the photo of the medicine,I can see what the medicine looks like
+a user ,delete the photo I have uploaded of the medicine,I can change the images/delete the photos
+a user,delete medicine,I can ensure the medicine that is finished or thrown out will not appear in my medicine list on the app.
+a user,be able to see ‘frequently used’ medicine ,I can quickly find the medicines I’ve been using recently.
+a user ,browse a list of all my medicines on the dashboard,I can quickly scan all my medicines
+a user ,see an overview of all medicines in the list on the dashboard,I can quickly learn general information about my medicines
+a user ,see photos of the medicines in the list on the dashboard,I can identify medicines quickly
+a user,see the medicine is marked in red when the medicine quantity is less than or equal to 2 times of dosage,I can be reminded when the medication runs out
+a user ,see the medicine is marked in red when this medicine expires in 15 days,I can be reminded when the medication is about to expire
+a user,take notes about my medicine,I can record some additional information about this medicine
+a user,modify notes about my medicine (Not any information from FDA),I can modify the additional information about the medicine
+a user,reduce the remaining amount (quantity) of the medicine by taking medicine,I can update my medicine inventory
+a user,search for a medicine (blurry search),"I could search for the drug I’m looking for, even though I only remember a few letters of the drug., even I only remember few letters of the drug."
+a user,the search bar can auto-fill the information about the medicines,I don’t need to type too much
+a user,use ‘filter’ when searching,I could search more conveniently and find the medicines whose names were entirely forgotten.
+a user/ a visitor,click ‘About this Website” on the sidebar,I can know the background of this website.
+a developer/ a manager/ a pharmacist,be able to modify wrong information about drugs,I can make this website reliable.
+client,be able to delete some account,I can free the places occupied by inactive accounts.
+a user,operate all the functions simple and convenient ,I don’t have trouble using the software.
+a user ,see the project to be most in purple and blue,I will be happy to use it as a medicine-related website.
+the product owner,put email verification codes in a cache and cannot send the code again within the 60s,I can reduce pressure on the server and database
+a user ,visit frequently used pages by sidebar,I can easily and quickly access the page I need
+a user ,see a “loading” notice when the website is loading something,I can have a better user experience
+a user,see a “404 Not Found” page if there is something wrong with the website,I can know what is happening if there is problem

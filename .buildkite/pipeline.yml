@@ -1,5 +1,12 @@
 steps:
 
+  - label: "Validate UserStories"
+    plugins:
+      - https://github.com/MotivationalModelling/buildkite-plugin-user-story-validator.git:
+          propertyone: "Unit"
+          user-stories-dir: "deploy/user_stories.json"
+          
+
   - label: "Preparing the Server"
     command:
       - "cd deploy"
